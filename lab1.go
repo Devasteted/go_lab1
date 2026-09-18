@@ -11,7 +11,7 @@ import (
 
 // Employee — композитный тип данных (структура), описывающий сотрудника.
 type Employee struct {
-	ID         int
+	ID         uint
 	Name       string
 	Department string
 	Salary     float64
